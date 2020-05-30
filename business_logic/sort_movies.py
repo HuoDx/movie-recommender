@@ -3,6 +3,5 @@ from utils.ui import display_options
 
 def  sort_movies():
     # Start coding here
-
-    
-    pass
+    for i in range (10):
+        print (i)
