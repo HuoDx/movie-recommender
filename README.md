@@ -14,7 +14,7 @@ Git is a CVS (Concurrent Version Control)
 
 ## Add desired movies (<Done>)
 
-## Get desired movies (<Done>)
+## Display desired movies (<Done>)
 
 ## Data: save to file and load from file (Maggie)
 Go to `./data/movies.py` to see your part
