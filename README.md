@@ -28,3 +28,4 @@ Go to `./business_logic/adjust_sort.py` to see your part
 ## Program suggests movies (Eric & Mary)
 Go to `/business_logic/suggest_movie.py` to see your part
 
+## The program relies on package requests_html. Please run 'pip install requests_html' first in your console before executing the program.
