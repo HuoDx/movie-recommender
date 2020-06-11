@@ -6,6 +6,5 @@ def  sort_movies():
     # Start coding here
     
     print(movies.get_all_movies())
-
-sort_movies()
-#sara trying
+    
+#sara 
