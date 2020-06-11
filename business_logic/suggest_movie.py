@@ -4,12 +4,12 @@ from requests_html import HTMLSession
 import random
 
 def suggest():
-    print("what's up")
+    # print("what's up")
 	# Start coding here
-    
+    print('Searching for Movies......')
     session = HTMLSession()
     url = 'https://www.imdb.com/chart/top/?ref_=nv_mv_250'
-    print("here")
+    # print("here")
     r = session.get(url)
     names = []
     n=0
@@ -38,8 +38,8 @@ def suggest():
 
 
 
-    print(length)
-    print(names)
+    # print(length)
+    # print(names)
     print(names[random_number])
     
     pass
