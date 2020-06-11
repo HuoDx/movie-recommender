@@ -11,7 +11,7 @@ def display_options(kv_pairs):
     
     try:
         choice = int(input())
-        if(0 <= choice < len(option_list)):
+        if(0 <= choice < len(option_list)+1):
             option_list[choice-1]()
     except Exception as e:
         pass
