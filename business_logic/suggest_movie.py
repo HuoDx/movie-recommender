@@ -28,10 +28,12 @@ def suggest():
             names.append(new_name)
             #print(position)
             #print(new_name)
-    except:
-	    print(TypeError)
-	    print("error")
-        #TypeError
+    except TypeError as te:
+	    pass
+        #This is normal, according to Eric C
+    except IndexError as ie:
+        pass
+        #This seems also normal according to Eric C
 
     length = len(names)
     random_number = random.randint(0,length+1)
