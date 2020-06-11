@@ -7,6 +7,4 @@ def  sort_movies():
     
     print(movies.get_all_movies())
     
-
-display_options()
-#sara trying
+#sara 
