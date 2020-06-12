@@ -17,3 +17,7 @@ def  sort_movies():
 
 sort_movies()
 #sara trying
+    
+    print(movies.get_all_movies())
+    
+#sara 
